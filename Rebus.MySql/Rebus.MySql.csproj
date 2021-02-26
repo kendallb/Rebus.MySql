@@ -14,6 +14,7 @@
     <PackageIcon>little_rebusbus2_copy-500x500.png</PackageIcon>
     <RepositoryUrl>https://github.com/rebus-org/Rebus.MySql</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageId>AMain.Rebus.MySql</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\artwork\little_rebusbus2_copy-500x500.png">
@@ -22,8 +23,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="AMain.Rebus" Version="1.0.2" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="MySqlConnector" Version="1.2.1" />
-    <PackageReference Include="Rebus" Version="6.4.1" />
   </ItemGroup>
 </Project>
